@@ -1,0 +1,55 @@
+<mxfile host="65bd71144e">
+    <diagram id="knrBFdVln6oxhkWiJKb-" name="Page-1">
+        <mxGraphModel dx="1402" dy="734" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="12" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="120" width="720" height="460" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="40" width="760" height="610" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="Header" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="30" width="740" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="85" width="740" height="505" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="150" width="320" height="290" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="CoffeeList" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="190" y="150" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Coffee&lt;br&gt;Clicking on a Coffee will show a ticket detail." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="180" width="300" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Coffee" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="240" width="300" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Coffee" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="300" width="300" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Add Coffee&lt;br&gt;Clicking on this button will show a form for submitting a coffee roast." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="450" width="320" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="App" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="390" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="430" y="150" width="350" height="350" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="CoffeeControl&lt;br&gt;This component will determine whether the CoffeeList or NewCoffeeForm component is showing." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="100" width="720" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="Submit&lt;br&gt;Clicking this button will add a coffee roast and then show the CoffeeList component" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="490" y="420" width="230" height="65" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="NewCoffeeForm" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="550" y="170" width="135" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
