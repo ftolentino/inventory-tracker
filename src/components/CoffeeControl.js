@@ -1,4 +1,8 @@
 import React from 'react';
+import NewCoffeeForm from './NewCoffeeForm';
+import CoffeeList from './CoffeeList';
+import CoffeeDetail from './CoffeeDetail';
+import EditCoffeeForm from './EditCoffeeForm';
 
 
 class CoffeeControl extends React.Component {
@@ -9,7 +13,7 @@ class CoffeeControl extends React.Component {
       mainCoffeeList: [],
       selectedCoffee: null,
       editing: false
-    }
+    };
   }
 
   handleClick = () => {
