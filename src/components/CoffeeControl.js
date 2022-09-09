@@ -26,8 +26,8 @@ class CoffeeControl extends React.Component {
   }
 
   handleAddingNewCoffeeToList = (newCoffee) => {
-    const newMainCoffeeList = this.state.mainTicketList.concat(newCoffee);
-    this.setState({mainTicketList: newMainCoffeeList,
+    const newMainCoffeeList = this.state.mainCoffeeList.concat(newCoffee);
+    this.setState({mainCoffeeList: newMainCoffeeList,
                   formVisibleOnPage: false });
   }
 
@@ -64,26 +64,23 @@ class CoffeeControl extends React.Component {
     let currentlyVisibleState = null;
     let buttonText = null; 
     if (this.state.editing) {
-      currentlyVisibleState = <EditTicketForm ticket = {this.state.selectedTicket}
-      onEditTicket = {this.handleEditingTicketInList} />
-      buttonText = "Return to Ticket List";
-    } else if (this.state.selectedTicket != null) {
+      currentlyVisibleState = <EditCoffeeForm coffee = {this.state.selectedCoffee}
+      onEditCoffee = {this.handleEditingCoffeeInList} />
+      buttonText = "Return to Coffee List";
+    } else if (this.state.selectedCoffee != null) {
       currentlyVisibleState = 
-      <TicketDetail 
-        ticket = {this.state.selectedTicket} 
-        onClickingDelete = {this.handleDeletingTicket}
+      <CoffeeDetail 
+        coffee = {this.state.selectedCoffee} 
+        onClickingDelete = {this.handleDeletingCoffee}
         onClickingEdit = {this.handleEditClick} />
-      buttonText = "Return to Ticket List";
-      // While our TicketDetail component only takes placeholder data, we will eventually be passing the value of selectedTicket as a prop.
+      buttonText = "Return to Coffee List";
     }
     else if (this.state.formVisibleOnPage) {
-      // This conditional needs to be updated to "else if."
-      currentlyVisibleState = <NewTicketForm onNewTicketCreation={this.handleAddingNewTicketToList}  />;
-      buttonText = "Return to Ticket List";
+      currentlyVisibleState = <NewCoffeeForm onNewCoffeeCreation={this.handleAddingNewCoffeeToList}  />;
+      buttonText = "Return to Coffee List";
     } else {
-      currentlyVisibleState = <TicketList ticketList={this.state.mainTicketList} onTicketSelection={this.handleChangingSelectedTicket} />;
-      // Because a user will actually be clicking on the ticket in the Ticket component, we will need to pass our new handleChangingSelectedTicket method as a prop.
-      buttonText = "Add Ticket";
+      currentlyVisibleState = <CoffeeList ticketList={this.state.mainCoffeeList} onCoffeeSelection={this.handleChangingSelectedCoffee} />;
+      buttonText = "Add Coffee";
     }
     return (
       <React.Fragment>
