@@ -1,6 +1,19 @@
-# Getting Started with Create React App
+# Local Business Inventory Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## By **_Filmer Tolentino_*
+
+## _Description_
+----------
+_Build an application in React that tracks inventory for a local business. We're going to keep this simple: you'll pick one inventory item and track how much of it is remaining as it gets sold or given away. There are a lot of themes to choose from, and you can create your own as long as you're able to track the remaining amount of an inventory item and meet the objectives._
+
+_For the purposes of explaining requirements, we'll stick to the theme of a coffee shop that sells coffee beans. Scroll down to see other theme ideas._
+
+_At our coffee shop, we sell coffee beans in 1-pound servings, and we get our coffee delivered in large burlap sacks. Here are the details:_
+
+_we sell multiple types of coffee beans, each in different burlap sacks one burlap sack contains 130 pounds of coffee beans every sale decrements one pound of coffee beans from the burlap sack, until it is empty_
+
+## _Diagram_
+<div style="display: flex; justify-content: center"><img src=""></div>
 
 ## Available Scripts
 
