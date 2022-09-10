@@ -17,7 +17,7 @@ const Coffee = (props) => {
 Coffee.propTypes = {
   name: PropTypes.string.isRequired,
   origin: PropTypes.string.isRequired,
-  price: PropTypes.number.isRequired,
+  price: PropTypes.number,
   roast: PropTypes.string.isRequired,
   id: PropTypes.string,
   whenCoffeeClicked: PropTypes.func

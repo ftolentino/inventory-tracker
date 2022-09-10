@@ -13,7 +13,7 @@ function EditCoffeeForm (props) {
     <React.Fragment>
       <ReusableForm
         formSubmissionHandler={handleEditCoffeeFormSubmission} 
-        buttonText="Update Ticket" />
+        buttonText="Update Coffee" />
     </React.Fragment>
   );
 }

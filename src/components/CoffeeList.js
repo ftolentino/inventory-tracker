@@ -12,6 +12,7 @@ const CoffeeList = (props) => {
           name={coffee.name}
           origin={coffee.origin}
           price={coffee.price}
+          roast={coffee.roast}
           id={coffee.id}
           key={coffee.id}/>
       )}
