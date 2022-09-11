@@ -8,6 +8,7 @@ const Coffee = (props) => {
         <h3>{props.name} - {props.origin}</h3>
         <p><em>{props.roast}</em></p>
         <p><em>${props.price}</em></p>
+        <p><em>Beans: {props.poundsOfBeans}/lbs</em></p>
         <hr/>
       </div>
     </React.Fragment>
@@ -17,8 +18,9 @@ const Coffee = (props) => {
 Coffee.propTypes = {
   name: PropTypes.string.isRequired,
   origin: PropTypes.string.isRequired,
-  price: PropTypes.number,
+  price: PropTypes.string,
   roast: PropTypes.string.isRequired,
+  poundsOfBeans: PropTypes.number,
   id: PropTypes.string,
   whenCoffeeClicked: PropTypes.func
 };
