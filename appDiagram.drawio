@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="knrBFdVln6oxhkWiJKb-" name="Page-1">
-        <mxGraphModel dx="1402" dy="734" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="765" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -8,7 +8,7 @@
                     <mxGeometry x="60" y="120" width="720" height="460" as="geometry"/>
                 </mxCell>
                 <mxCell id="9" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="40" width="760" height="610" as="geometry"/>
+                    <mxGeometry x="40" width="760" height="1080" as="geometry"/>
                 </mxCell>
                 <mxCell id="2" value="Header" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
                     <mxGeometry x="50" y="30" width="740" height="40" as="geometry"/>
@@ -22,13 +22,13 @@
                 <mxCell id="4" value="CoffeeList" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="190" y="150" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" value="Coffee&lt;br&gt;Clicking on a Coffee will show a ticket detail." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="5" value="Coffee Sack&lt;br&gt;Clicking on a Coffee Sack will show its detail page." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="70" y="180" width="300" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" value="Coffee" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="6" value="Coffee Sack" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="70" y="240" width="300" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="Coffee" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="7" value="Coffee Sack" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="70" y="300" width="300" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="8" value="Add Coffee&lt;br&gt;Clicking on this button will show a form for submitting a coffee roast." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -48,6 +48,30 @@
                 </mxCell>
                 <mxCell id="17" value="NewCoffeeForm" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="550" y="170" width="135" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="620" width="570" height="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="Coffee Detail" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="290" y="630" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="Update Coffee&lt;br&gt;Click goes to EditCoffeeForm" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="260" y="800" width="170" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="Sell 1/lb beans&lt;br&gt;Click decrements lbs by 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="800" width="170" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="Delete Coffee&lt;br&gt;Click to delete from CoffeeList" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="800" width="170" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="Roast:" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="130" y="670" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="$Price/lb:" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="135" y="700" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="Pounds of beans:" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="130" y="730" width="120" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
