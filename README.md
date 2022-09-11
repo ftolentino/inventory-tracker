@@ -13,7 +13,7 @@ _At our coffee shop, we sell coffee beans in 1-pound servings, and we get our co
 _we sell multiple types of coffee beans, each in different burlap sacks one burlap sack contains 130 pounds of coffee beans every sale decrements one pound of coffee beans from the burlap sack, until it is empty_
 
 ## _Diagram_
-<div style="display: flex; justify-content: center"><img src=""></div>
+<div style="display: flex; justify-content: center"><img src="./src/img/appDiagram.png"></div>
 
 ## Available Scripts
 
