@@ -4,7 +4,7 @@
 
 ## _Description_
 ----------
-_Build an application in React that tracks inventory for a local business. We're going to keep this simple: you'll pick one inventory item and track how much of it is remaining as it gets sold or given away. _
+_Build an application in React that tracks inventory for a local business. We're going to keep this simple: you'll pick one inventory item and track how much of it is remaining as it gets sold or given away._
 
 _At our coffee shop, we sell coffee beans in 1-pound servings, and we get our coffee delivered in large burlap sacks. Here are the details:_
 
