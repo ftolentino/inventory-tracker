@@ -4,9 +4,7 @@
 
 ## _Description_
 ----------
-_Build an application in React that tracks inventory for a local business. We're going to keep this simple: you'll pick one inventory item and track how much of it is remaining as it gets sold or given away. There are a lot of themes to choose from, and you can create your own as long as you're able to track the remaining amount of an inventory item and meet the objectives._
-
-_For the purposes of explaining requirements, we'll stick to the theme of a coffee shop that sells coffee beans. Scroll down to see other theme ideas._
+_Build an application in React that tracks inventory for a local business. We're going to keep this simple: you'll pick one inventory item and track how much of it is remaining as it gets sold or given away. _
 
 _At our coffee shop, we sell coffee beans in 1-pound servings, and we get our coffee delivered in large burlap sacks. Here are the details:_
 
