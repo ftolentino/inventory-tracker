@@ -2,7 +2,11 @@ import React from "react";
 
 const Header = () => {
   return (
-    <h1>Coffee Roast Inventory</h1>
+    <React.Fragment>
+      <div className="container">
+        <h1 className="header text-center my-4">COFFEE ROAST INVENTORY</h1>
+      </div>
+    </React.Fragment>
   );
 }
 

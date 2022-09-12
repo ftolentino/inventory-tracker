@@ -38,16 +38,18 @@ class CoffeeControl extends React.Component {
 
   handleSellingCoffee = () => {
     console.log('Sell Button Clicked!');
-    const poundSold = {
-      name: this.state.selectedCoffee.name,
-      origin: this.state.selectedCoffee.origin,
-      price: this.state.selectedCoffee.price,
-      roast: this.state.selectedCoffee.roast,
-      poundsOfBeans: this.state.selectedCoffee.poundsOfBeans -=1,
-      id: this.state.selectedCoffee.id,
-      key: this.state.selectedCoffee.id
-    };
-    this.setState({selectedCoffee: poundSold});
+    if(this.state.selectedCoffee.poundsOfBeans !== 0) {
+      const poundSold = {
+        name: this.state.selectedCoffee.name,
+        origin: this.state.selectedCoffee.origin,
+        price: this.state.selectedCoffee.price,
+        roast: this.state.selectedCoffee.roast,
+        poundsOfBeans: this.state.selectedCoffee.poundsOfBeans -=1,
+        id: this.state.selectedCoffee.id,
+        key: this.state.selectedCoffee.id
+      };
+      this.setState({selectedCoffee: poundSold});
+    }
   }
 
   handleChangingSelectedCoffee = (id) => {
@@ -105,8 +107,16 @@ class CoffeeControl extends React.Component {
     }
     return (
       <React.Fragment>
-        {currentlyVisibleState}
-        <button onClick={this.handleClick}>{buttonText}</button>
+        <div className='container my-4'>
+          <div className='row'>
+            <div className='col'>
+              {currentlyVisibleState}
+            </div>
+          </div>
+        </div>
+        <div className='d-flex flex-row justify-content-center'>
+          <button  className="btn btn-primary" onClick={this.handleClick}>{buttonText}</button>
+        </div>
       </React.Fragment>
     );
   }

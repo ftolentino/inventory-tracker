@@ -1,6 +1,6 @@
 # Local Business Inventory Tracker
 
-## By **_Filmer Tolentino_*
+## By *_Filmer Tolentino_*
 
 ## _Description_
 ----------

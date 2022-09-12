@@ -5,11 +5,15 @@ const Coffee = (props) => {
   return (
     <React.Fragment>
       <div onClick = {() => props.whenCoffeeClicked(props.id)}>
-        <h3>{props.name} - {props.origin}</h3>
-        <p><em>{props.roast}</em></p>
-        <p><em>${props.price}</em></p>
-        <p><em>Beans: {props.poundsOfBeans}/lbs</em></p>
-        <hr/>
+        <div className="coffeeContainer col">
+          <div className="col">
+            <h3 className="text-dark fs-2 text-center">{props.name} - {props.origin}</h3>
+            <p className="coffeeFont text-center"><em>{props.roast}</em></p>
+            <p className="coffeeFont text-center"><em>${props.price}</em></p>
+            <p className="coffeeFont text-center"><em>Beans: {props.poundsOfBeans}/lbs</em></p>
+          </div>
+        </div>
+        <hr className="coffee"/>
       </div>
     </React.Fragment>
   );
